@@ -5,3 +5,10 @@ This controller uses longitudinal speed control with PID and Pure Pursuit latera
 
 ![trajectory](/images/trajectory.png)
 ![forward speed](/images/forward_speed.png)
+
+## Usage
+Dependences for this project can be found in ```requirments.txt```. 
+
+To run the controller, start CARLA at a 30hz fixed time-step on the Racetrack map. Then run ```module.py```.
+
+To disable live plotting, open ```options.cfg``` and change to ```live_plotting = false```
